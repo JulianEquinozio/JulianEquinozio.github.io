@@ -1,0 +1,106 @@
+html,body, h1 {
+
+	margin-top: 0px;
+	margin-left: 0;
+    margin-right: 0;
+	padding: 0;
+}
+
+body {
+	background-color: black;
+	background-image: url("http://www.intrawallpaper.com/static/images/farcry_3-1280x720.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/*NAVIGATION BAR*/
+
+.container-fluid .navbar-header {
+	position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/*5-STAR RATING SYSTEM*/
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+      display: inline-block;
+    float: right;
+    /* text-align: right; */
+    vertical-align: middle;
+    margin-top: 3px;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+.stars-rating {
+	
+	padding-top: 11px;
+}
+.stars-left {
+	display: inline-block;
+
+}
+
+span {
+	color:gold;
+	font-size: 20px;
+}
+
+
+.display-inline-block-margin-on {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*SOCIAL LOGOS AND OTHER ICONS*/
+
+.icon {
+	width: 100%;
+}
+
+.left-menu {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.social-icons .fa {
+	padding-left: 2px;
+	padding-right: 2px;
+	font-size: 20px;
+}
+
+.fa-pinterest {
+	color: #900C27;
+}
+
+.fa-facebook-square {
+	color: #22267B;
+}
+
+.fa-instagram {
+	color: #5F2F14;
+}
+
+.fa-commenting {
+	color: #007CB9;
+}
+
+.fa-clock-o {
+	color: green;
+}
+
+.fa-calendar-check-o {
+	color: #900C27;
+}

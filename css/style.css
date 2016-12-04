@@ -1,6 +1,6 @@
 html,body, h1 {
 
-	margin-top: 0px;
+	margin-top: 125px;
 	margin-left: 0;
     margin-right: 0;
 	padding: 0;
@@ -13,12 +13,124 @@ body {
 	background-attachment: fixed;
 }
 
+img {
+	max-width:100%;
+	max-height:100%;
+}
+
+.slider {
+	max-width:100%;
+	max-height:350px;
+}
+
+.paddedimg {
+	max-width:100%;
+	max-height:100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.summary-box {
+	width: 100%;
+	height: 100%;
+	overflow: scroll;
+}
+
 /*NAVIGATION BAR*/
 
 .container-fluid .navbar-header {
 	position: fixed;
     top: 0;
     width: 100%;
+}
+
+/*FONTS*/
+
+.title-font {
+	color:red;
+}
+
+.summary-title {
+	text-decoration: underline;
+	text-decoration: bold;
+	font-size: 20px;
+}
+
+
+/*CALENDAR*/
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.month {
+    padding: 30px 25px;
+    width: 100%;
+    background: #1abc9c;
+}
+
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+    font-size: 15px;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 11.5%;
+    color: #666;
+    text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color:#777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
 }
 
 /*5-STAR RATING SYSTEM*/
